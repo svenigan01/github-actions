@@ -1,0 +1,16 @@
+name: File operations in github
+
+on: push
+
+jobs:
+  files:
+    runs-on: ubuntu-latest
+    steps:
+      - name: create a file
+        run: echo "svenigan" > devops.txt
+        
+      - name: display contents of file
+        run: cat devops.txt
+
+      - name: display date
+        name: date
