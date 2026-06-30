@@ -13,4 +13,4 @@ jobs:
         run: cat devops.txt
 
       - name: display date
-        name: date
+        run: date
